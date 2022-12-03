@@ -51,7 +51,7 @@ function Header() {
                       </h1>
                     </a>
                   </Link>
-                  <Link href="https://github.com/advwastaken/arush.nextjs.app">
+                  <Link href="https://github.com/advwastaken/arush.nextjs">
                     <a className="notapcolor">
                       <h1 className="cursor-pointer text-[#6F7E8F] sm:pl-0 pl-1 pr-2 py-2 rounded-full text-sm">
                         <svg
