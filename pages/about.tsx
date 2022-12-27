@@ -40,7 +40,7 @@ const About: NextPage = () => {
             subtitle="About"
             contentLeft={
               <Avatar
-                size="xl"
+                css={{size: '$20'}}
                 src="https://i.postimg.cc/28J352gF/20221203-082215.webp"
                 alt="Arush/Avatar"
                 color="gradient"
@@ -57,7 +57,7 @@ const About: NextPage = () => {
             >
               Member of Har Ghar Gita organization.
             </Text>
-            <div className="h-8"></div>
+            <div className="h-4"></div>
             <Collapse.Group shadow>
           <Collapse title="Opinions on Anonymity?">
             <Text>
