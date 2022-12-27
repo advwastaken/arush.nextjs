@@ -3,12 +3,12 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 
 type Creator = {
   name: string,
-  age: number,
+  age: string,
 }
 
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Creator>
 ) {
-  res.status(200).json({ name: 'Abhyudaya Deep Verma', age: 16 })
+  res.status(200).json({ name: 'Arush Mishra', age: '16/17-' })
 }
