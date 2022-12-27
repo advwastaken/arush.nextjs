@@ -27,7 +27,7 @@ const Footer: NextPage = () => {
         <div className="h-2"></div>
       </Collapse>
       <div className="h-20 w-full"></div>
-      <div className="h-8 w-full"></div>
+      <div className="h-12 w-full"></div>
       <Text h5>©Arush 2022</Text>
     </div>
   );
