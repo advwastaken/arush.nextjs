@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Popover, Button, Dropdown } from "@nextui-org/react";
+import { Popover, Button } from "@nextui-org/react";
 import { Collapse, Text } from "@nextui-org/react";
 
 const Footer: NextPage = () => {
