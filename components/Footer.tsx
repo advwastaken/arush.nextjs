@@ -24,11 +24,11 @@ const Footer: NextPage = () => {
           </Popover.Content>
         </Popover>
         <Text>{"‎ ".repeat(100)}</Text>
-        <div className="h-2"></div>
+        <div className="h-4"></div>
       </Collapse>
       <div className="h-20 w-full"></div>
       <div className="h-12 w-full"></div>
-      <Text h5>©Arush 2022</Text>
+      <Text h6>©Arush 2022</Text>
     </div>
   );
 };
