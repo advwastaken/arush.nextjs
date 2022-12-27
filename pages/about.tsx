@@ -33,7 +33,7 @@ const About: NextPage = () => {
             href="https://i.postimg.cc/L8ZJJxM0/1671883685742.png"
           />
         </Head>
-        <div className="scale-[0.80]">
+        <div className="scale-[0.80] lg:scale-100">
           <Collapse
             divider={false}
             title={<Text h4>Arush</Text>}
