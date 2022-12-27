@@ -69,7 +69,7 @@ const About: NextPage = () => {
               Descent, hardworking, and independent people.
             </Text>
           </Collapse>
-          <Collapse title="What languages you speak?">
+          <Collapse title="What languages I speak?">
             <Text>
               English, Hindi, Maithli
             </Text>
