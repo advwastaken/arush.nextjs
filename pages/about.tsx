@@ -59,7 +59,7 @@ const About: NextPage = () => {
             </Text>
             <div className="h-4"></div>
             <Collapse.Group shadow>
-          <Collapse title="Opinions on Anonymity?">
+          <Collapse title="Opinion on Anonymity?">
             <Text>
               Perhaps it *Depends*, valid for good cause. 
             </Text>
