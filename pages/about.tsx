@@ -48,8 +48,8 @@ const About: NextPage = () => {
               />
             }
           >
-            <Text h4>Hi, I'm a high school student, my hobby is of writing.</Text>
-            <Text h4 
+            <Text h5>Hi, I'm a high school student, my hobby is of writing.</Text>
+            <Text h5 
               css={{
                 textGradient: "45deg, $blue600 -20%, $pink600 50%",
               }}
