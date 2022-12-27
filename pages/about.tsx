@@ -40,7 +40,7 @@ const About: NextPage = () => {
             subtitle="About"
             contentLeft={
               <Avatar
-                css={{ size: "$20" }}
+                size="xl"
                 src="https://i.postimg.cc/28J352gF/20221203-082215.webp"
                 alt="Arush/Avatar"
                 color="gradient"
