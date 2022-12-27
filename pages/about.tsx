@@ -33,7 +33,7 @@ const About: NextPage = () => {
             href="https://i.postimg.cc/L8ZJJxM0/1671883685742.png"
           />
         </Head>
-        <div className="scale-90">
+        <div className="scale-80">
           <Collapse
             divider={false}
             title={<Text h4>Arush</Text>}
@@ -48,8 +48,8 @@ const About: NextPage = () => {
               />
             }
           >
-            <Text h5>Hi, I'm a high school student, my hobby is of writing.</Text>
-            <Text h5 
+            <Text h4>Hi, I'm a high school student, my hobby is of writing.</Text>
+            <Text h4 
               css={{
                 textGradient: "45deg, $blue600 -20%, $pink600 50%",
               }}
