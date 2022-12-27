@@ -1,20 +1,37 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import BackNav from "../components/backNav";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import { createTheme, NextUIProvider } from "@nextui-org/react";
+import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { useRouter } from "next/router";
+
+const lightTheme = createTheme({
+  type: "light",
+  theme: {},
+});
+
+const darkTheme = createTheme({
+  type: "dark",
+  theme: {},
+});
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const showFrags = router.pathname !== "/" ? false : true;
-  const showBack = router.pathname === "/" ? false : true;
   return (
     <div>
-      {showFrags && <Header />}
-      {showBack && <BackNav />}
-      <Component {...pageProps} />
-      {showFrags && <Footer />}
+      <NextThemesProvider
+        defaultTheme="dark"
+        attribute="class"
+        value={{ light: lightTheme.className, dark: darkTheme.className }}
+      >
+        <NextUIProvider>
+          <NavBar />
+          <Component {...pageProps} />
+          {showFrags && <Footer />}
+        </NextUIProvider>
+      </NextThemesProvider>
     </div>
   );
 }

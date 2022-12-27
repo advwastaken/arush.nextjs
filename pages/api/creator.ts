@@ -1,14 +1,14 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
-import moment from 'moment';
-type Data = {
+
+type Creator = {
   name: string,
-  age: number
+  age: number,
 }
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>
+  res: NextApiResponse<Creator>
 ) {
-  res.status(200).json({ name: 'Abhyudaya Deep Verma', age : moment().year() - 2006})
+  res.status(200).json({ name: 'Abhyudaya Deep Verma', age: 16 })
 }
