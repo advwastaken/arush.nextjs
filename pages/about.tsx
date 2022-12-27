@@ -27,7 +27,7 @@ const About: NextPage = () => {
     <div className="h-screen w-full flex flex-col items-center justify-center">
       <div className="h-full w-full flex items-center justify-center p-4">
         <Head>
-          <title>ADV - About</title>
+          <title>Arush - About</title>
           <link
             rel="icon"
             href="https://i.postimg.cc/L8ZJJxM0/1671883685742.png"
