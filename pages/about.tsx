@@ -71,7 +71,7 @@ const About: NextPage = () => {
           </Collapse>
           <Collapse title="What languages I speak?">
             <Text>
-              English, Hindi, Maithli
+              English, Hindi, and Maithli.
             </Text>
           </Collapse>
         </Collapse.Group>
