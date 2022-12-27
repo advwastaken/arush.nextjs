@@ -48,8 +48,8 @@ const About: NextPage = () => {
               />
             }
           >
-            <Text>Hi, I'm a high school student, my hobby is of writing.</Text>
-            <Text
+            <Text h4>Hi, I'm a high school student, my hobby is of writing.</Text>
+            <Text h4 
               css={{
                 textGradient: "45deg, $blue600 -20%, $pink600 50%",
               }}
@@ -71,7 +71,7 @@ const About: NextPage = () => {
           </Collapse>
           <Collapse title="What languages you speak?">
             <Text>
-              English, Hindi, Maithli {"‎ ".repeat(70)}
+              English, Hindi, Maithli
             </Text>
           </Collapse>
         </Collapse.Group>
