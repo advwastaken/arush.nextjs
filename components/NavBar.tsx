@@ -4,7 +4,7 @@ import { Navbar, Link, Text } from "@nextui-org/react";
 const NavBar: NextPage = () => {
   return (
     <div>
-      <Navbar isBordered>
+      <Navbar>
         <Navbar.Brand>
           <div>
             <Navbar.Toggle
