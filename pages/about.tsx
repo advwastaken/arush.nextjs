@@ -59,9 +59,9 @@ const About: NextPage = () => {
             </Text>
             <div className="h-4"></div>
             <Collapse.Group shadow>
-          <Collapse title="Opinion on Anonymity?">
+          <Collapse title="What languages I speak?">
             <Text>
-              Perhaps it *Depends*, valid for good cause. 
+              English, Hindi, and Maithli.
             </Text>
           </Collapse>
           <Collapse title="What I Like?">
@@ -69,9 +69,9 @@ const About: NextPage = () => {
               Descent, hardworking, and independent people.
             </Text>
           </Collapse>
-          <Collapse title="What languages I speak?">
+          <Collapse title="Opinion on Anonymity?">
             <Text>
-              English, Hindi, and Maithli.
+              Perhaps it *Depends*, valid for good cause. 
             </Text>
           </Collapse>
         </Collapse.Group>
