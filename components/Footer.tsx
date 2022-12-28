@@ -6,7 +6,7 @@ const Footer: NextPage = () => {
   return (
     <div className="h-auto p-2 w-full flex items-center justify-center flex-col">
       <div className="h-20 w-full"></div>
-        <Collapse.Group>
+        <Collapse.Group bordered>
       <Collapse title="Whats your location?">
         <Text>
             India 🇮🇳{"‎ ".repeat(90)}
