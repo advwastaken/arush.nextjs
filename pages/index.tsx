@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       >
         Arush
       </Text>
-      <Text h5>Oridinary High School Topper</Text>
+      <Text h5>High School Student</Text>
     </div>
   );
 };
